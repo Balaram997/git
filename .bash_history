@@ -115,3 +115,55 @@ git status
 vi git1.txt 
 git checkout master
 vi git1.txt 
+git branch
+vi git1.txt 
+git merge master
+vi .bash_history 
+git status
+git commit -m "conflict resolved"
+git commit  -a -m "conflict resolved"
+clear
+git merge master
+git checkout master
+vi git1.txt 
+ls
+git merge dev
+pwd
+git branch
+vi git1.txt 
+clear
+git checkout -b stage
+git branch
+git delete branch stage
+git remove branch stage
+git branch -r 
+git push fb --all
+git branch -a
+git branch -d stage
+git checkout master
+git branch -d stage
+git branch
+git push --all
+clear
+git log
+clear
+git push fb --all
+git branch
+git push fb :stage
+clear
+git branch
+vi file-1ignore.text
+vi .gitignore
+cat .gitignore 
+vi .gitignore 
+git status
+git add .
+git commit -m "added ignore files"
+git push fb 
+clear
+git tag
+git tag git-practice
+git tag
+git branch
+git push fb tag --tags
+git push fb tag git-practice
